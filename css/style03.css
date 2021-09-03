@@ -2,7 +2,7 @@
 
 
 /* 레이아웃 */
-#section1 {position: relative; z-index: 1000; height: 1600px; background: #3366ff; transition: all 1s ease-in-out;}
+#section1 {position: relative; z-index: 1000; height: 1600px; background: hsl(0, 100%, 78%);; transition: all 1s ease-in-out;}
 #section2 {position: relative; z-index: 900; background: #fff; }
 #section3 {position: relative; height: 35000px; z-index: 800;}
 #section4 {position: relative; height: 7000px;}
@@ -289,7 +289,7 @@ text-align: center;
 .tit span { 
     position: relative; 
     margin-right: 6vw;
-    color: #3366ff; 
+    color: hsl(0, 100%, 78%);; 
     font-size: 12vw; line-height: 14vw;
     font-family: 'Bebas Neue', cursive; 
     transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -310,7 +310,7 @@ text-align: center;
 .atit {text-align: center;}
 .atit .text1 {
     position: relative;
-    height: 100vh; background: #3366ff; 
+    height: 100vh; background: hsl(0, 100%, 78%);; 
 }
 .atit .text1 .t1 {
     position: absolute; 
@@ -318,8 +318,8 @@ text-align: center;
     left: 50%;
     transform: translate(-50%, -25%);
     color: #fafafa;
-    font-size: 2vw;
-    font-family: 'S-CoreDream-3Light';
+    font-size: 4vw;
+    font-family: 'Jua', sans-serif;
     font-weight: 100;
     transition: all .5s ease-in-out;
     opacity: 0;
@@ -329,19 +329,21 @@ text-align: center;
 .atit .text2 {  
     height: 100vh;
     padding: 30vh 0;
+    position: relative;
+    height: 100vh; background: hsl(0, 100%, 78%);; 
 }
 .text2 .text2_1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1vw; 
-    line-height: 2vw;
+    font-size: 2.5vw; 
+    line-height: 5vw;
 }
 .atit .text2 span {
     display: block; 
-    font-family: 'S-CoreDream-3Light';
-    color: #333;
+    font-family: 'Jua', sans-serif;
+    color: white;
     padding-bottom: 1vh;
 }
 .atit .text2_1.show {opacity: 1; transform: translate(-50%, -50%); }
@@ -349,7 +351,7 @@ text-align: center;
     font-size: 5vw;
     padding: 5vw 0;
     font-family: 'Nanum Myeongjo';
-    color: #3366ff;
+    color: hsl(0, 100%, 78%);;
 }
 .atit .text2 .t1:last-child { padding-top: 8vw;}
 .atit .text2 .t2 {
@@ -360,7 +362,7 @@ text-align: center;
 }
 
 .sec2_2 .skill_wrap {
-    background: linear-gradient(to bottom, #fff 0%, #fcc5e4 10%, #fda34b 30%, #ff7882 45%, #c8699e 60%, #7046aa 71%, #0c1db8 87%, #1a1a1a 100%); 
+    background: linear-gradient(to bottom, hsl(0, 100%, 78% ) 0%, #ffc4c4 10%, #ff8888 30%, #ff7882 45%, #c86985 60%, #7046aa 71%, #0c1db8 87%, #1a1a1a 100%); 
     text-align: center;
     padding: 40vw 0; 
     color: #fff;
