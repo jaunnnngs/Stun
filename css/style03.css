@@ -816,7 +816,14 @@ text-align: center;
     width: 100vw;
 }
 .sec4 .tit span {color: #ad0000;}
-
+.sec4 .skill_wrap {
+    background: linear-gradient(to bottom, hsl(0, 100%, 78% ) 0%, #ffc4c4 10%, #ff8888 30%, #ff7882 45%, #c86985 60%, #7046aa 71%, #0c1db8 87%, #1a1a1a 100%); 
+    text-align: center;
+    padding: 40vw 0; 
+    color: #fff;
+    font-size: 6vw;
+    font-family: 'Bebas Neue', cursive;
+}
 /*-- sec4_1 --*/
 .sec4_1{}
 .sec4_1.pos {position: fixed; top:0; left:0; width: 100vw;}
