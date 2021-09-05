@@ -675,7 +675,7 @@ text-align: center;
 .sec4 .tit span {color: rgb(53, 57, 255);}
 
 /*-- sec4_1 --*/
-.sec4_1{}
+.sec4_1{ background: rgb(183, 184, 245);}
 .sec4_1.pos {position: absolute; top:0; left:0; width: 100vw;}
 .sec4_1 .flex {
     background: rgb(183, 184, 245);

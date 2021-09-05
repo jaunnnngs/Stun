@@ -209,7 +209,7 @@
 				</div>
 			</div>
 
-			<div class="sec4_1" data-15500="top:0%;" data-16000="top:-400%;">
+			<div class="sec4_1" data-15500="top:0%;" data-16000="top:-400%;" style=" background: rgb(183, 184, 245);">
 				<div class="flex insta">
 					<div class="item pic" style="width: 80%;">
 						<!-- <figure class="front"> -->
@@ -225,6 +225,7 @@
 						<span>나날히 성장하는 모습 보여드리겠습니다.</span>
 						<span class="t1">”</span>
 						<span>THANK YOU♥</span>
+						<span>-THE END-</span>
 					</div>
 				</div>
 			</div>
@@ -235,8 +236,8 @@
 					</div>
 					<h2>SEND A MESSAGE</h2>
 				</div>
-			</div> -->
-		</section>
+			</div>
+		</section> -->
 		<!-- //section4 -->
 
 		<!-- 위치고민하기 -->
@@ -356,14 +357,14 @@
 			}
 
 			//contact menu
-			if (wScroll >= 46700) {
+			if (wScroll >= sec4) {
 				$(".opc3").addClass("off");
-			} else if (wScroll < 46700) {
+			} else if (wScroll < sec4) {
 				$(".opc3").removeClass("off");
 			}
-			if (wScroll >= 46800) {
+			if (wScroll >= sec4) {
 				$(".Contact").addClass("left");
-			} else if (wScroll < 46800) {
+			} else if (wScroll < sec4) {
 				$(".Contact").removeClass("left");
 			}
 
@@ -393,25 +394,25 @@
 			}
 
 			//section4 opacity1,fixed 
-			if (wScroll >= 45000) {
+			if (wScroll >= 16500) {
 				$("#section4").addClass("opc");
 			} else {
 				$("#section4").removeClass("opc");
 			}
 
-			if (wScroll >= 45000) {
+			if (wScroll >= 16500) {
 				$("#section4 .sec4").addClass("pos");
 			} else {
 				$("#section4 .sec4").removeClass("pos");
 			}
 
-			if (wScroll >= 46500) {
+			if (wScroll >= 17000) {
 				$("#section4 .sec4_1").addClass("pos");
 			} else {
 				$("#section4 .sec4_1").removeClass("pos");
 			}
 
-			if (wScroll > 27000) {
+			if (wScroll > 17000) {
 				$(".main_text h1").addClass("show");
 			} else {
 				$(".main_text h1").removeClass("show");
