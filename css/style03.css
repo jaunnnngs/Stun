@@ -468,7 +468,6 @@ text-align: center;
 .text .btn {
     position: relative;
     overflow:hidden;
-    
     border: 1px solid rgb(0, 0, 0);
     text-align: center;
     transition: .3s;
@@ -479,7 +478,7 @@ text-align: center;
     line-height: 2vw;
     color: rgb(0, 0, 0); 
     font-weight: 100;
-    font-size: 1vw;
+    font-size: 2vw;
     font-family: 'Fugaz One';
 }
 .text .btn:after {
@@ -492,7 +491,7 @@ text-align: center;
   transition: .3s;  
   transform: skewX(15deg);
   z-index: -1;
-  background: #000000;
+  background: #a7a7a7;
 }
 .text .btn:hover a {
     color:#1a1a1a;
