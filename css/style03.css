@@ -146,11 +146,11 @@ text-align: center;
 .menu4 a:after {background:linear-gradient(to right, #92fe9d 0%, #00c9ff 100%) }
 
 .white {background: #fff;}
-.blue {background: #3366ff;}
-.red {background: #ad0000;}
+.blue {background: hsl(0, 100%, 78%);}
+.red {background: rgb(183, 184, 245);}
 .textBlue {color: #3366ff;}
 .textRed {color: #ad0000;}
-.textGreen {color: #00ff33;}
+.textGreen {color: #000000;}
 .textWhite {color: #fff;}
 
 /* 마우스 휠 */
