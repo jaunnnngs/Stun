@@ -314,11 +314,12 @@ text-align: center;
 }
 .atit .text1 .t1 {
     position: absolute; 
-    top: 50%;
+    top: 30%;
     left: 50%;
+    height: 100px;
     transform: translate(-50%, -25%);
     color: #fafafa;
-    font-size: 4vw;
+    font-size: 2.5vw;
     font-family: 'Jua', sans-serif;
     font-weight: 100;
     transition: all .5s ease-in-out;
@@ -328,17 +329,17 @@ text-align: center;
 .atit .text1 .t1.up {opacity: 1; transform: translate(-50%, -50%);}
 .atit .text2 {  
     height: 100vh;
-    padding: 30vh 0;
+    /* padding: 30vh 0; */
     position: relative;
-    height: 100vh; background: hsl(0, 100%, 78%);; 
+    background: hsl(0, 100%, 78%);; 
 }
 .text2 .text2_1 {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2.5vw; 
-    line-height: 5vw;
+    font-size: 1.5vw; 
+    line-height: 2vw;
 }
 .atit .text2 span {
     display: block; 
@@ -366,11 +367,13 @@ text-align: center;
     text-align: center;
     padding: 40vw 0; 
     color: #fff;
-    font-size: 6vw;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+    font-family: 'Jua', sans-serif;
 }
 .skill {
-    padding: 0 10vh 25vh 0;
+    padding: 0 5vh 5vh 0;
+    font-size: 2vw;
+   
 }
 .skill:last-child {padding-bottom: 0;}
 .skill span {position: relative; }

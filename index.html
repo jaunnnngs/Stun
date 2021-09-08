@@ -27,6 +27,25 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 	<link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
 
+	<style>
+		.skill_wrap {
+			display: grid;
+			grid-template-columns: 5fr 5fr;
+			/* grid-template-rows: 5fr 2.5fr 2.5fr; */
+			gap: 0px;
+		}
+		.main {
+			display: grid;
+			grid-template-columns: 4fr 6fr;
+			/* grid-template-rows: 5fr 2.5fr 2.5fr; */
+			gap: 0px;
+		}
+
+		.main>div {
+			background-color: hsl(0, 100%, 78%);
+
+		}
+	</style>
 </head>
 
 <body>
@@ -88,43 +107,91 @@
 				</div>
 			</div>
 
-			<div class="sec2_1">
-				<div class="aimg">
-					<img src="img/main.JPG" style="height: 60%;" alt="메인사진">
-				</div>
-				<div class="atit">
-					<div class="text1">
-						<h2 class="t1">
-							<div class="text2_1"></div>
-							<!-- <span class="t1">“</span> -->
-							<span><br><br><br><br></span>
-							<span>안녕하세요.</span>
-							<span>수학을 사랑하는 신입개발자 </span>
-							<span>'박정민' 입니다.</span>
-						</h2>
+			<div class="sec2_1" data-2500="top:0%;" data-2800="top:-200%;">
+				<div class="main">
+					<div class="aimg" style="height: 100%;">
+						<img src="img/main.JPG" style="width: 90%; margin-left: 10%; margin-top: 10%;" alt="메인사진">
 					</div>
-					<div class="text2">
-						<div class="text2_1">
-							<!-- <span class="t2"></span> -->
-							<!-- <span class="t1">“</span> -->
-							<span>어릴적부터 "수학자"가 꿈이었지만 </span>
-							<span>현실의 벽에 부딪혀 교사로 근무했습니다.(웃음)</span>
-							<span>현재 저는 수학과 닮은 점이 많은 </span>
-							<span>코딩과 사랑에 빠지는 중입니다.</span>
-							<!-- <span class="t1">”</span> -->
+					<div class="atit">
+						<div class="text1" style="height: 40%; margin-top: 10%;">
+							<h2 class="t1" >
+								<div class="text2_1"></div>
+								<span><br><br></span>
+								<span>안녕하세요.</span>
+								<span>수학을 사랑하는 신입개발자 </span>
+								<span>'박정민' 입니다.</span>
+							</h2>
+						</div>
+						<div class="text2" style="height: 35%; margin-top: 10%;">
+							<div class="text2_1">
+								<!-- <span class="t2"></span> -->
+								<!-- <span class="t1">“</span> -->
+								<span>어릴적부터 "수학자"가 꿈이었지만 </span>
+								<span>현실의 벽에 부딪혀 교사로 근무했습니다.(웃음)</span>
+								<span>현재 저는 수학과 닮은 점이 많은 </span>
+								<span>코딩과 사랑에 빠지는 중입니다.</span>
+								<!-- <span class="t1">”</span> -->
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="sec2_2">
 				<div class="skill_wrap">
-					<div class="skills">
+					<div class="skills" >
+						<div class="skill" style="font-size: 3vw;">
+							<span>[제 정보는요!]</span>
+						</div>
 						<div class="skill">
-							<span>제가 할 수 있는 것들은요!</span>
+							<span>--------신상정보-------- <br><br></span>
+							<span>94년생(여자, 물고기자리)
+								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>특징: 수학사랑/운동사랑/호기심잔뜩
+								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>영남대학교 수학교육과 졸업.
+								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>--------경력사항-------- <br><br></span>
+							<span>2018.03-2018.12 <br>대구 칠성고등학교 근무
+								<!-- <strong class="count">90</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>2019.03-2019.12 <br>대구 구지중학교 근무
+								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>2020.03-2021.02 <br>구미 광평중학교 근무
+								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>2021.03-2021.10 <br>인공지능을 활용한 <br>빅데이터 서비스 플랫폼 개발자 <br>교육이수 예정
+								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+					</div>
+					<div class="skills" style=" padding: 0 5vh 5vh 0;">
+						<div class="skill" style="font-size: 3vw;">
+							<span>[제가 할 수 있는 것은요!]</span>
 						</div>
 						<div class="skill">
 							<span>Java(JSP/Spring)
 								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>|
+								<!-- <strong class="count">90</strong> -->
 							</span>
 						</div>
 						<div class="skill">
@@ -133,8 +200,43 @@
 							</span>
 						</div>
 						<div class="skill">
+							<span>|
+								<!-- <strong class="count">90</strong> -->
+							</span>
+						</div>
+						<div class="skill">
 							<span>C,C#
 								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>|
+								<!-- <strong class="count">90</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>ORACLE,MySQL
+								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>|
+								<!-- <strong class="count">90</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>Machine Learning/Deep Learning<br>
+								<!-- <strong class="count">98</strong> -->
+							</span>
+						</div>
+						<div class="skill">
+							<span>|</span>
+						</div>
+						<div class="skill">
+							<span><br>저의 배움은 계속됩니다!</span>
+						</div>
+						<div class="skill">
+							<span>|<br>V<br>
 							</span>
 						</div>
 					</div>
@@ -146,14 +248,14 @@
 
 		<!-- section3 -->
 		<section id="section3">
-			<div class="sec3" data-12000="top: 0%;" data-12500="top: -100%;">
+			<div class="sec3" data-6800="top: 0%;" data-9000="top: -100%;">
 				<div class="tit">
 					<span class="opc2">About</span>
 					<span class="Work">Work</span>
 					<span class="opc2">Contact</span>
 				</div>
 			</div>
-			<div class="sec3_1" data-13500="left:0%" data-15000="left:-400%">
+			<div class="sec3_1" data-9100="left:0%" data-16000="left:-1200%">
 				<div class="work_site">
 					<div class="s1">
 						<div class="img">
@@ -320,7 +422,7 @@
 								<span class="dot" onclick="currentSlide(3)"></span>
 							</div>
 						</div>
-						<div class="num" data-13500="left:50%;" data-14000="left:80%;">01</div>
+						<div class="num" data-11500="left:60%;" data-13000="left:90%;">01</div>
 						<div class="text">
 							<h2><br><br> JSP Project</h2>
 							<p>JSP를 활용하여 만든 <br> 핫플 예약프로그램입니다.</p>
@@ -392,7 +494,7 @@
 								<span class="dot" onclick="currentSlide1(3)"></span>
 							</div>
 						</div>
-						<div class="num" data-14000="left:50%;" data-14500="left:80%;">02</div>
+						<div class="num" data-13000="left:60%;" data-14000="left:90%;">02</div>
 						<div class="text">
 							<h2><br>Python Project</h2>
 							<p>Python을 활용한 <br> "내 님 찾기 프로젝트"입니다.</p>
@@ -409,7 +511,7 @@
 						<div class="img">
 							<img src="img/C_language.PNG" alt="C언어">
 						</div>
-						<div class="num" data-14500="left:30%;" data-15000="left:70%;">03</div>
+						<div class="num" data-14000="left:60%;" data-15000="left:90%;">03</div>
 						<div class="text">
 							<h2><br><br>C Project</h2>
 							<p>C 언어로 만든 <br>주차관리 프로그램입니다.</p>
@@ -424,15 +526,15 @@
 
 		<!-- section4 -->
 		<section id="section4">
-			<div class="sec4" data-15000="top:0%;" data-18000="top:-10%;">
-				<div class="tit" data-15000="opacity:0;" data-17000="opacity:1;">
+			<div class="sec4" data-11000="left:0%;" data-12000="left:-100%;">
+				<div class="tit" data-11000="opacity:0;" data-12000="opacity:1;">
 					<span class="opc3">About</span>
 					<span class="opc3">Work</span>
 					<span class="Contact">Contact</span>
 				</div>
 			</div>
 
-			<div class="sec4_1" data-17000="top:0%;" data-18000="top:100%;" style=" background: rgb(183, 184, 245);">
+			<div class="sec4_1" data-11000="left:0%;" data-12000="left:-100%;" style=" background: rgb(183, 184, 245);">
 				<div class="flex insta">
 					<div class="item pic" style="width: 80%;">
 						<!-- <figure class="front"> -->
@@ -440,7 +542,7 @@
 						<!-- </figure> -->
 					</div>
 				</div>
-				
+
 				<div class="ctit">
 					<div class="container">
 						<span class="t1">“</span>
@@ -453,7 +555,7 @@
 				</div>
 			</div>
 		</section>
-			<!-- <div class="footer">
+		<!-- <div class="footer">
 				<div class="container">
 					<div class="thank">
 						<p>THANK YOU♥</p>
@@ -462,10 +564,10 @@
 				</div>
 			</div>
 		</section> -->
-			<!-- //section4 -->
+		<!-- //section4 -->
 
-			<!-- 위치고민하기 -->
-			<!-- <section id="section3_1">
+		<!-- 위치고민하기 -->
+		<!-- <section id="section3_1">
 		<div class="sec3_2" data-26500="left:0%;" data-35500="left:-300%;">
 				<div class="animation">
 					<div class="s1">
@@ -496,221 +598,222 @@
 				</div>
 			</div>
 	</section> -->
-	
-
-	<!-- // contents -->
-
-	<script src="js/jquery.min_1.12.4.js"></script>
-	<script src="js/jquery-ui-1.12.1.min.js"></script>
-	<script src="js/easypiechart.min.js"></script>
-	<script src="js/skrollr.min.js"></script>
-	<script src="js/custom.js"></script>
-	<script src="js/slide.js"></script>
-	<script src="js/slide1.js"></script>
-
-	<script>
-		//skrollr
-		var s = skrollr.init({
-			edgeStrategy: 'set',
-			easing: 'linear'
-		});
-
-		//scroll
-		$(window).scroll(function () {
-			let wScroll = $(this).scrollTop();
-			let sec2 =$("#section2 .sec2").offset().top;
-			let sec3 = $("#section3 .sec3").offset().top;
-			let work = $("#section3 .sec3").offset().top + $(window).height() / 2;;
-			let sec4 = $("#section4 .sec4").offset().top;
-			let text1 = $(".atit .text1").offset().top;
-			let text2 = $(".atit .text2").offset().top;
-			let aimg = $(".sec2_1 .aimg").offset().top;
-			let atit = $(".sec2_1 .atit").offset().top;
-
-			$(".scroll").text(wScroll);
-
-			//scrollDown mouse
-			if (wScroll >= sec2) {
-				$("#mouse").css("border", "2px solid hsl(0, 100%, 78%)");
-				$("#wheel").css("background-color", "hsl(0, 100%, 78%)");
-				$("#mouse .scroll1").css("border-top", "5px solid hsl(0, 100%, 78%)");
-				$("#mouse .scroll2").css("border-top", "5px solid hsl(0, 100%, 78%)");
-				$("#mouse .scroll3").css("border-top", "5px solid hsl(0, 100%, 78%)");
-			}
-			if (wScroll >= 3000) {
-				$("#mouse").css("display", "none");
-			}
-			if (wScroll >= sec3) {
-				$("#mouse").css("border", "2px solid #000000");
-				$("#wheel").css("background-color", "#000000");
-				$("#mouse .scroll1").css("border-top", "5px solid #000000");
-				$("#mouse .scroll2").css("border-top", "5px solid #000000");
-				$("#mouse .scroll3").css("border-top", "5px solid #000000");
-				$("#mouse").css("display", "block");
-			}
-			if (wScroll >= work) {
-				$("#mouse").css("display", "none");
-			}
-
-			//main text fixed
-			if (wScroll >= 1000) {
-				$(".main_text h1").removeClass("fixed");
-			} else if (wScroll == 0) {
-				$(".main_text h1").addClass("fixed");
-			}
-
-			//about menu
-			if (wScroll >= 1800) {
-				$(".opc1").addClass("off");
-			} else if (wScroll < 1800) {
-				$(".opc1").removeClass("off");
-			}
-			if (wScroll >= 1900) {
-				$(".about").addClass("right");
-			} else if (wScroll < 1900) {
-				$(".about").removeClass("right");
-			}
-
-			//work menu
-			if (wScroll >= sec3) {
-				$(".opc2").addClass("off");
-			} else if (wScroll < sec3) {
-				$(".opc2").removeClass("off");
-			}
-			if (wScroll >= sec3) {
-				$(".Work").addClass("center");
-			} else if (wScroll < sec3) {
-				$(".Work").removeClass("center");
-			}
-
-			//contact menu
-			if (wScroll >= sec4) {
-				$(".opc3").addClass("off");
-			} else if (wScroll < sec4) {
-				$(".opc3").removeClass("off");
-			}
-			if (wScroll >= sec4) {
-				$(".Contact").addClass("left");
-			} else if (wScroll < sec4) {
-				$(".Contact").removeClass("left");
-			}
-
-			//section2
-			if (wScroll >= text1 - $(window).height() / 2) {
-				$(".atit .text1 .t1").addClass("up");
-			}
-			
-
-			//section3 fixed
-			if (wScroll >= $("#section3").offset().top) {
-				$("#section3 .sec3").addClass("pos");
-			} else {
-				$("#section3 .sec3").removeClass("pos");
-			}
-
-			if (wScroll >= 27800) {
-				$(".animation .s2 .text").addClass("show");
-			}
-			if (wScroll >= 28800) {
-				$(".animation .s3 .text").addClass("show");
-			}
-			if (wScroll >= 29800) {
-				$(".animation .s4 .text").addClass("show");
-			}
-			if (wScroll >= 30800) {
-				$(".animation .s5 .text").addClass("show");
-			}
-
-			//section4 opacity1,fixed 
-			if (wScroll >= 16500) {
-				$("#section4").addClass("opc");
-			} else {
-				$("#section4").removeClass("opc");
-			}
-
-			if (wScroll >= 16500) {
-				$("#section4 .sec4").addClass("pos");
-			} else {
-				$("#section4 .sec4").removeClass("pos");
-			}
-
-			if (wScroll >= 18000) {
-				$("#section4 .sec4_1").addClass("pos");
-			} else {
-				$("#section4 .sec4_1").removeClass("pos");
-			}
-
-			if (wScroll > 18000) {
-				$(".main_text h1").addClass("show");
-			} else {
-				$(".main_text h1").removeClass("show");
-			}
-
-		});
-
-		//mobileBtn window popup
-		$(".mobileBtn").eq(0).click(function (e) {
-			e.preventDefault();
-			window.open("../apple/apple01.html", "appleSite", "width=500, height=937, left=50, top=50, scrollbars=0, toolbar=0, menubar=0");
-		});
-		$(".mobileBtn").eq(1).click(function (e) {
-			e.preventDefault();
-			window.open("../nike/index.html", "nikeSite", "width=500, height=937, left=50, top=50, scrollbars=0, toolbar=0, menubar=0");
-		});
-
-		//animation codpen btn
-		var aniBtn1 = $(".animation .s2").find(".btn-wrap");
-		var aniBtn2 = $(".animation .s3").find(".btn-wrap");
-		var aniBtn3 = $(".animation .s4").find(".btn-wrap");
-		// var aniBtn4 = $(".animation .s5").find(".btn-wrap");
-
-		var modal1 = $(" .animation .s2").find("#modal");
-		var modal2 = $(" .animation .s3").find("#modal");
-		var modal3 = $(" .animation .s4").find("#modal");
-		// var modal4 = $(" .animation .s5").find("#modal");
-
-		var close1 = $(" .animation .s2").find(".close");
-		var close2 = $(" .animation .s3").find(".close");
-		var close3 = $(" .animation .s4").find(".close");
-		// var close4 = $(" .animation .s5").find(".close");
 
 
-		aniBtn1.click(function (e) {
-			e.preventDefault();
-			modal1.removeClass().addClass("one");
-		});
-		close1.click(function (e) {
-			e.preventDefault();
-			$(".s2 #modal").addClass("out");
-		});
+		<!-- // contents -->
 
-		aniBtn2.click(function (e) {
-			e.preventDefault();
-			modal2.removeClass().addClass("one");
-		});
-		close2.click(function (e) {
-			e.preventDefault();
-			$(".s3 #modal").addClass("out");
-		});
+		<script src="js/jquery.min_1.12.4.js"></script>
+		<script src="js/jquery-ui-1.12.1.min.js"></script>
+		<script src="js/easypiechart.min.js"></script>
+		<script src="js/skrollr.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/slide.js"></script>
+		<script src="js/slide1.js"></script>
 
-		aniBtn3.click(function (e) {
-			e.preventDefault();
-			modal3.removeClass().addClass("one");
-		});
-		close3.click(function (e) {
-			e.preventDefault();
-			$(".s4 #modal").addClass("out");
-		});
+		<script>
+			//skrollr
+			var s = skrollr.init({
+				edgeStrategy: 'set',
+				easing: 'linear'
+			});
 
-		aniBtn4.click(function (e) {
-			e.preventDefault();
-			modal4.removeClass().addClass("one");
-		});
-		close4.click(function (e) {
-			e.preventDefault();
-			$(".s5 #modal").addClass("out");
-		});
-	</script>
+			//scroll
+			$(window).scroll(function () {
+				let wScroll = $(this).scrollTop();
+				let sec2 = $("#section2 .sec2").offset().top;
+				let sec3 = $("#section3 .sec3").offset().top;
+				let work = $("#section3 .sec3").offset().top + $(window).height() / 2;;
+				let sec4 = $("#section4 .sec4").offset().top;
+				let text1 = $(".atit .text1").offset().top;
+				let text2 = $(".atit .text2").offset().top;
+				let aimg = $(".sec2_1 .aimg").offset().top;
+				let atit = $(".sec2_1 .atit").offset().top;
+
+				$(".scroll").text(wScroll);
+
+				//scrollDown mouse
+				if (wScroll >= sec2) {
+					$("#mouse").css("border", "2px solid hsl(0, 100%, 78%)");
+					$("#wheel").css("background-color", "hsl(0, 100%, 78%)");
+					$("#mouse .scroll1").css("border-top", "5px solid hsl(0, 100%, 78%)");
+					$("#mouse .scroll2").css("border-top", "5px solid hsl(0, 100%, 78%)");
+					$("#mouse .scroll3").css("border-top", "5px solid hsl(0, 100%, 78%)");
+				}
+				if (wScroll >= 3000) {
+					$("#mouse").css("display", "none");
+				}
+				if (wScroll >= sec3) {
+					$("#mouse").css("border", "2px solid #000000");
+					$("#wheel").css("background-color", "#000000");
+					$("#mouse .scroll1").css("border-top", "5px solid #000000");
+					$("#mouse .scroll2").css("border-top", "5px solid #000000");
+					$("#mouse .scroll3").css("border-top", "5px solid #000000");
+					$("#mouse").css("display", "block");
+				}
+				if (wScroll >= work) {
+					$("#mouse").css("display", "none");
+				}
+
+				//main text fixed
+				if (wScroll >= 1000) {
+					$(".main_text h1").removeClass("fixed");
+				} else if (wScroll == 0) {
+					$(".main_text h1").addClass("fixed");
+				}
+
+				//about menu
+				if (wScroll >= 1800) {
+					$(".opc1").addClass("off");
+				} else if (wScroll < 1800) {
+					$(".opc1").removeClass("off");
+				}
+				if (wScroll >= 1900) {
+					$(".about").addClass("right");
+				} else if (wScroll < 1900) {
+					$(".about").removeClass("right");
+				}
+
+				//work menu
+				if (wScroll >= sec3) {
+					$(".opc2").addClass("off");
+				} else if (wScroll < sec3) {
+					$(".opc2").removeClass("off");
+				}
+				if (wScroll >= sec3) {
+					$(".Work").addClass("center");
+				} else if (wScroll < sec3) {
+					$(".Work").removeClass("center");
+				}
+
+				//contact menu
+				if (wScroll >= 12000) {
+					$(".opc3").addClass("off");
+				} else if (wScroll < 12000) {
+					$(".opc3").removeClass("off");
+				}
+				if (wScroll >= 12000) {
+					$(".Contact").addClass("left");
+				} else if (wScroll < 12000) {
+					$(".Contact").removeClass("left");
+				}
+
+				//section2
+				if (wScroll >= text1 - $(window).height() / 2) {
+					$(".atit .text1 .t1").addClass("up");
+				}
+
+
+				//section3 fixed
+				if (wScroll >= $("#section3").offset().top) {
+					$("#section3 .sec3").addClass("pos");
+				} else {
+					$("#section3 .sec3").removeClass("pos");
+				}
+
+				if (wScroll >= sec3) {
+					$(".animation .s2 .text").addClass("show");
+				}
+				if (wScroll >= sec3) {
+					$(".animation .s3 .text").addClass("show");
+				}
+				if (wScroll >= sec3) {
+					$(".animation .s4 .text").addClass("show");
+				}
+				if (wScroll >= sec3) {
+					$(".animation .s5 .text").addClass("show");
+				}
+
+				//section4 opacity1,fixed 
+				if (wScroll <= 12500) {
+					$("#section4").addClass("opc");
+				} else {
+					$("#section4").removeClass("opc");
+				}
+
+				if (wScroll >= 16500) {
+					$("#section4 .sec4").addClass("pos");
+				} else {
+					$("#section4 .sec4").removeClass("pos");
+				}
+
+				if (wScroll >= 15000) {
+					$("#section4 .sec4_1").addClass("pos");
+				}
+				else {
+					$("#section4 .sec4_1").removeClass("pos");
+				}
+
+				if (wScroll > 18000) {
+					$(".main_text h1").addClass("show");
+				} else {
+					$(".main_text h1").removeClass("show");
+				}
+
+			});
+
+			//mobileBtn window popup
+			$(".mobileBtn").eq(0).click(function (e) {
+				e.preventDefault();
+				window.open("../apple/apple01.html", "appleSite", "width=500, height=937, left=50, top=50, scrollbars=0, toolbar=0, menubar=0");
+			});
+			$(".mobileBtn").eq(1).click(function (e) {
+				e.preventDefault();
+				window.open("../nike/index.html", "nikeSite", "width=500, height=937, left=50, top=50, scrollbars=0, toolbar=0, menubar=0");
+			});
+
+			//animation codpen btn
+			var aniBtn1 = $(".animation .s2").find(".btn-wrap");
+			var aniBtn2 = $(".animation .s3").find(".btn-wrap");
+			var aniBtn3 = $(".animation .s4").find(".btn-wrap");
+			// var aniBtn4 = $(".animation .s5").find(".btn-wrap");
+
+			var modal1 = $(" .animation .s2").find("#modal");
+			var modal2 = $(" .animation .s3").find("#modal");
+			var modal3 = $(" .animation .s4").find("#modal");
+			// var modal4 = $(" .animation .s5").find("#modal");
+
+			var close1 = $(" .animation .s2").find(".close");
+			var close2 = $(" .animation .s3").find(".close");
+			var close3 = $(" .animation .s4").find(".close");
+			// var close4 = $(" .animation .s5").find(".close");
+
+
+			aniBtn1.click(function (e) {
+				e.preventDefault();
+				modal1.removeClass().addClass("one");
+			});
+			close1.click(function (e) {
+				e.preventDefault();
+				$(".s2 #modal").addClass("out");
+			});
+
+			aniBtn2.click(function (e) {
+				e.preventDefault();
+				modal2.removeClass().addClass("one");
+			});
+			close2.click(function (e) {
+				e.preventDefault();
+				$(".s3 #modal").addClass("out");
+			});
+
+			aniBtn3.click(function (e) {
+				e.preventDefault();
+				modal3.removeClass().addClass("one");
+			});
+			close3.click(function (e) {
+				e.preventDefault();
+				$(".s4 #modal").addClass("out");
+			});
+
+			aniBtn4.click(function (e) {
+				e.preventDefault();
+				modal4.removeClass().addClass("one");
+			});
+			close4.click(function (e) {
+				e.preventDefault();
+				$(".s5 #modal").addClass("out");
+			});
+		</script>
 </body>
 
 </html>
