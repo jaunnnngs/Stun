@@ -6,6 +6,7 @@
 #section2 {position: relative; z-index: 900; background: #fff; }
 #section3 {position: relative; height: 3500px; z-index: 800;}
 #section4 {position: relative; height: 7000px;}
+/* #python {stop} */
 
 /* 메인메뉴 css 효과 */
 .off {opacity: 0;}
