@@ -2,10 +2,10 @@
 
 
 /* 레이아웃 */
-#section1 {position: relative; z-index: 1000; height: 1600px; background: hsl(0, 100%, 78%);; transition: all 1s ease-in-out;}
+#section1 {position: relative; z-index: 1000; height: 1600px; background: hsl(0, 100%, 78%); transition: all 1s ease-in-out;}
 #section2 {position: relative; z-index: 900; background: #fff; }
 #section3 {position: relative; height: 3500px; z-index: 800;}
-#section4 {position: relative; height: 7000px;}
+#section4 {position: relative; height: 7000px; background: rgb(183, 184, 245);}
 /* #python {stop} */
 
 /* 메인메뉴 css 효과 */
